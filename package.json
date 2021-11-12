@@ -1,0 +1,19 @@
+{
+  "name": "projektas1",
+  "version": "1.0.0",
+  "description": "Text char stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigToeEnergy/Projektas1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigToeEnergy/Projektas1/issues"
+  },
+  "homepage": "https://github.com/BigToeEnergy/Projektas1#readme"
+}
