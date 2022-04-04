@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/BigToeEnergy/Projektas1#readme",
   "devDependencies": {
+    "postcss": "^8.4.12",
     "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.11"
   }
 }
