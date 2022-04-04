@@ -1,0 +1,27 @@
+$primary-color: rgb(112, 150, 240);
+$secondary-color: lighten($primary-color, 20%);
+$background-color: #eee;
+$element-background-color: #fff;
+$font-stack: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 0;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.hidden {
+  display: none;
+}

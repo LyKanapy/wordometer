@@ -1,0 +1,118 @@
+@import "config";
+@import "buttons";
+@import "header";
+
+body {
+  height: 100%;
+  font-family: $font-stack;
+  background-color: $background-color;
+  font-weight: 500;
+}
+
+h1 h2 h3 {
+  font-weight: 400;
+}
+
+h1 {
+  height: 2rem;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.layout-element {
+  background-color: $element-background-color;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 3px #ddd;
+  max-width: 1200px;
+  padding: 1rem 1rem;
+  margin: 0.5rem 0.5rem;
+  overflow: auto;
+}
+
+// Section
+
+.section-title {
+  padding-bottom: 1.5rem;
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+// Section input
+
+.text-input {
+  margin: 0.25rem;
+  &__field {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 20vh;
+    padding: 10px;
+    font-family: $font-stack;
+    margin-bottom: 20px;
+    &:focus {
+    }
+    & {
+    }
+  }
+}
+
+// Section stats
+
+.stats {
+}
+
+.stats-element {
+  margin: 0.25rem;
+}
+
+.text-stats {
+  &__title {
+    border-bottom: solid 1px darken($primary-color, 15%);
+    border-top: solid 1px darken($primary-color, 15%);
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    line-height: 1.35rem;
+  }
+
+  &__name {
+    width: 8%;
+    border: 1px darken($primary-color, 15%);
+    border-style: solid;
+
+    text-align: center;
+  }
+
+  &__graph {
+    display: flex;
+    width: 95%;
+  }
+  &__graph-line {
+    background: linear-gradient(
+      to left,
+      $primary-color,
+      darken($primary-color, 15%)
+    );
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+  &__value {
+    width: 15%;
+    padding-left: 0.5rem;
+  }
+}
+
+@import "spinner";
+@import "footer";
+@import "section-stats";

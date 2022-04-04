@@ -1,11 +1,56 @@
 <html>
-<head>
-<title>Portfolio website: words stats</title>
-<link rel="stylesheet" href="src/sass/main.scss" />
-<script defer src="src/js/controller.js" type="module"></script>
-</head>
-<body>
-    
+  <head>
+    <title>Portfolio website: words stats</title>
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <script defer src="src/js/controller.js" type="module"></script>
+  </head>
 
-</body>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">Wordometer</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="input layout-element">
+          <form class="text-input">
+            <textarea
+              class="text-input__field"
+              placeholder="Insert your text here..."
+            ></textarea>
+            <button class="button">
+              <span>SHOW ME STATS</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <div class="text-stats layout-element">
+          <div class="section-title">
+            <h1>STATS</h1>
+          </div>
+          <div class="text-stats__title hidden">
+            <div class="text-stats__row border-bottom">
+              <div class="stats-element">Character</div>
+              <div class="stats-element">Graph</div>
+              <div class="stats-element">Character count | percent</div>
+            </div>
+          </div>
+          <div class="spinner hidden"></div>
+          <!-- <div class="spinner-area hidden">
+          </div> -->
+
+          <div class="text-stats__content"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer__copyright">&copy; Copyright 2021</div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BigToeEnergy/Projektas1/issues"
   },
-  "homepage": "https://github.com/BigToeEnergy/Projektas1#readme"
+  "homepage": "https://github.com/BigToeEnergy/Projektas1#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
 }
