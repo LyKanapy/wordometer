@@ -47,3 +47,5 @@ class InputStatsView {
 export default new InputStatsView();
 
 // Comment
+let cooper = 2;
+cooper = 4;
